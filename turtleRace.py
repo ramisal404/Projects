@@ -1,8 +1,10 @@
 from turtle import *
 from random import randint
-penup()
+
 speed(0)
+penup()
 goto(-140, 140)
+
 
 for step in range(13):
     write(step, align = "center")
